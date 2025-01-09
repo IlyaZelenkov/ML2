@@ -16,7 +16,7 @@ using ColumnData = variant<vector<int>, vector<float>, vector<string>>;
 // Version 1.1: 09 / 01 / 2025
 // Arithmatic operator have been overwritten to support vector math.
 
-
+// TODO: multi-type DataFrames.
 
 class DataFrame
 {
