@@ -10,3 +10,8 @@ DataFrame.cpp
 DataFrame.cpp
 - Added statistical functions.
 - min, max, mean, stdev, variance.
+
+10/01/2025:
+created LinearRegression.cpp
+- Implemented basic fit, predict.
+  
