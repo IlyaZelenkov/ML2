@@ -6,14 +6,17 @@ DataFrame.cpp
 - Dataframe stored as a HashMap data structure.
 - Overloaded operators to perform vector arithmetic operations.
 
+
 09/01/2025:
 DataFrame.cpp
 - Added statistical functions.
 - min, max, mean, stdev, variance.
 
+
 10/01/2025:
 created LinearRegression.cpp
 - Implemented basic fit, predict.
+
 
 13/01/2025:
 - Implemented a SIMD dot/sum operation optimization.
