@@ -14,4 +14,15 @@ DataFrame.cpp
 10/01/2025:
 created LinearRegression.cpp
 - Implemented basic fit, predict.
-  
+
+13/01/2025:
+- Implemented a SIMD dot/sum operation optimization.
+- As of the above date, the code requires AVX2 feature support by the CPU.
+  - Development environment: Intel i9 14900k.
+  - Does not work on my old macbook yet :(.   
+- Checks to make sure users system is compatable with intel CPU features.
+- Operates on either 8 32bit or 4 64bit values at a time.
+- Navigates to correct function based on numerical data type.
+    - int32(int), int64 (long), float32(float), float64(double).
+
+
