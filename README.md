@@ -26,6 +26,6 @@ created LinearRegression.cpp
 - Checks to make sure users system is compatable with intel CPU features.
 - Operates on either 8 32bit or 4 64bit values at a time.
 - Navigates to correct function based on numerical data type.
-    - int32(int), int64 (long), float32(float), float64(double).
+    - int32(int), float32(float), float64(double).
 
 
