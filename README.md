@@ -1,24 +1,26 @@
 Welcome to the c++ implementation of my ML project. 
 
 08/01/2025: 
-DataFrame.cpp
+DataFrame.cpp:  will be changed to header file. 
 - Created a dataframe class that acts like a python pandas DataFrame.
 - Dataframe stored as a HashMap data structure.
 - Overloaded operators to perform vector arithmetic operations.
+- will be changed to header file. 
 
 
 09/01/2025:
-DataFrame.cpp
+DataFrame.cpp: 
 - Added statistical functions.
 - min, max, mean, stdev, variance.
 
 
 10/01/2025:
-created LinearRegression.cpp
+LinearRegression.cpp: will be changed to header file. 
 - Implemented basic fit, predict.
 
 
-13/01/2025: intrinsic_dot.cpp
+13/01/2025: 
+intrinsic_dot.cpp: will be changed to header file. 
 - Implemented a SIMD dot/sum operation optimization.
 - As of the above date, the code requires AVX2 feature support by the CPU.
   - Development environment: Intel i9 14900k.
