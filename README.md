@@ -18,7 +18,7 @@ created LinearRegression.cpp
 - Implemented basic fit, predict.
 
 
-13/01/2025:
+13/01/2025: intrinsic_dot.cpp
 - Implemented a SIMD dot/sum operation optimization.
 - As of the above date, the code requires AVX2 feature support by the CPU.
   - Development environment: Intel i9 14900k.
